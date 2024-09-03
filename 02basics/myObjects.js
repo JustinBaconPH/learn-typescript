@@ -1,15 +1,11 @@
 "use strict";
+// const User = {
+//     name: "Justin",
+//     email: "justin@crimson.dev",
+//     isActive: true
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
-var User = {
-    name: "Justin",
-    email: "justin@crimson.dev",
-    isActive: true
-};
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
+function createUser(user) {
+    return { name: "", email: "", isActive: true };
 }
-var newUser = { name: "Justin", isPaid: false, email: "h@h.com" };
-createUser(newUser);
-function createCourse() {
-    return { name: "reactjs", price: 399 };
-}
+createUser({ name: "", email: "", isActive: true });
